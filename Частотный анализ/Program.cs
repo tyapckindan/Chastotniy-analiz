@@ -1,17 +1,16 @@
 ﻿internal class Program
 {
-
     private static void Main(string[] args)
     {
-      //  Console.ReadLine(N)
-           // a[N]++
-            // 1 путь остортировать массив. 
-            // 2 путь ручной, нашли максимум выписали индексы. Можно вспомогательный массив. Нашли из оставшихся максимум выписали и так далее.
-            int[] array = new int [1000];
-        Random r = new();
-        for (int i = 0; i < array.Length; i++)
-            array[i] = r.Next(0, 17);
+                var counters = new int[1000];
 
+                for (int N = int.Parse(Console.ReadLine()); N > 0; N--)
+                    counters[int.Parse(Console.ReadLine())]++;
 
+        for (int i = 0; i < counters.Length; i++)
+        {
+            if (counters[i] != 0)
+                Console.WriteLine($"{i} {counters[i]}");
+        }
     }
 }
