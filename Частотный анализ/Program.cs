@@ -3,6 +3,7 @@
     const int maxArrayLength = 1000;
     private static void Main(string[] args)
     {
+        // array filling 
         var counters = new int[maxArrayLength];
         // Data input
                 for (int N = int.Parse(Console.ReadLine()); N > 0; N--)
