@@ -1,8 +1,9 @@
 ﻿internal class Program
 {
+    const int maxArrayLength = 1000;
     private static void Main(string[] args)
     {
-                var counters = new int[1000];
+        var counters = new int[maxArrayLength];
         // Data input
                 for (int N = int.Parse(Console.ReadLine()); N > 0; N--)
                     counters[int.Parse(Console.ReadLine())]++;
