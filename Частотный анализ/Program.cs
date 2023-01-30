@@ -13,7 +13,7 @@
         for (int i = 0; i < counters.Length; i++)
         {
             if (counters[i] != 0)
-                Console.WriteLine($"{i} {counters[i]}");
+                Console.WriteLine($"{i} {counters[i]}");//
         }
     }
 }
