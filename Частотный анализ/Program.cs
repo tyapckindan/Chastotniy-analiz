@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        int countVoice = 0, max = -1000, numToRemove = 0;
+        int countVoice = 0, max = -1000, numToRemove = 0, flag = 0;
         // array filling 
 
         var counters = new int[17];
@@ -21,8 +21,6 @@
             if (counters[i] != 0 && max == counters[i])
             {
                 Console.WriteLine($"{i} {counters[i]}");
-                numToRemove = max;
-                counters = counters.Where(val => val != numToRemove).ToArray();
                 max--;
                 i = 0;
             }
