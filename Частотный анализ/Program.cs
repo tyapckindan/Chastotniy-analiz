@@ -11,7 +11,7 @@
         {
             countVoice = int.Parse(Console.ReadLine());
             counters[countVoice]++;
-                if (max < counters[countVoice])
+            if (max < counters[countVoice])
                 max = counters[countVoice];
         }
 
