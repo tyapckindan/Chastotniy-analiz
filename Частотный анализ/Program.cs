@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        int countVoice = 0, max = -1000, numToRemove = 0, flag = 0;
+        int countVoice = 0, max = -1000;
         // array filling 
 
         var counters = new int[17];
