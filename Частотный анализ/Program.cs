@@ -3,7 +3,7 @@
     private static void Main(string[] args)
     {
         int countVoice = 0, max1 = 0, max2 = 0, max3 = 0, flag = 0;
-        // array filling 
+        // array filling
 
         var counters = new int[17];
         // Data input
